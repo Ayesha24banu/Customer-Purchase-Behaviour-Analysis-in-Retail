@@ -104,7 +104,7 @@ customer_purchase_analysis/
 - Creates new columns like `TotalPrice`
 - Logs all steps and saves cleaned file
 
-📄 Cleaned dataset: `outputs/data/clean_online_retail.csv
+📄 Cleaned dataset: `outputs/data/clean_online_retail.csv`
 
 ### 📌 Step 2: MySQL Pipeline
 - Insert & retrieve cleaned data into/from MySQL
@@ -115,8 +115,7 @@ customer_purchase_analysis/
 - Top 10 selling products
 - Monthly & daily revenue trends
 - Hourly purchase patterns (peak times)
-- Country-wise revenue distribution
-- Plots saved to `outputs/figures/eda_fig/`
+- Country-wise revenue distribution`
 
 📁 Outputs: `outputs/figures/eda_fig/`
 
@@ -137,7 +136,6 @@ customer_purchase_analysis/
   - `Recent High-Spenders`
   - `Occasional Low-Spenders`
   - `Inactive Spenders`
-- Plots saved to `outputs/figures/rfm_fig/`
 
 📁 Outputs: `outputs/figures/rfm_fig/`
 📄 RFM: `outputs/data/rfm_segments.csv`
