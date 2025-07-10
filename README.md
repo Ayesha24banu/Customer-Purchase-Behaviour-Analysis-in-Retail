@@ -228,7 +228,7 @@ customer_purchase_analysis/
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/customer_purchase_analysis.git
+git clone https://github.com/your-use/Customer-Purchase-Behaviour-Analysis-in-Retail.git
 cd customer_purchase_analysis
 pip install -r requirements.txt
 ```
