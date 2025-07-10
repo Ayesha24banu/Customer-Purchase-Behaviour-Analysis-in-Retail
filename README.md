@@ -104,6 +104,7 @@ customer_purchase_analysis/
 - Creates new columns like `TotalPrice`
 - Logs all steps and saves cleaned file
 
+📁 Outputs:
 📄 Cleaned dataset: `outputs/data/clean_online_retail.csv`
 
 ### 📌 Step 2: MySQL Pipeline
@@ -139,7 +140,6 @@ customer_purchase_analysis/
 
 📁 Outputs: `outputs/figures/rfm_fig/`
 📄 RFM: `outputs/data/rfm_segments.csv`
-
 
 ### 📌 Step 6: Market Basket Analysis
 - Applies Apriori algorithm to find frequent itemsets
