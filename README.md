@@ -283,7 +283,7 @@ Thanks to the UCI & Kaggle community for the retail dataset.
 **Ayesha Banu**
 - 🎓 M.Sc. Computer Science | 🏅 Gold Medalist
 - 💼 Data Scientist | Data Analyst | Full-Stack Python Developer | GenAI Enthusiast
-- 📫 [LinkedIn](https://www.linkedin.com/in/ayesha_banu_cs)
+- 📫 [LinkedIn](https://www.linkedin.com/in/ayesha-banu-cs/)
 - **Project:** Customer Purchase Behavior Analysis in Retail  -- 2025  
 ---
 
