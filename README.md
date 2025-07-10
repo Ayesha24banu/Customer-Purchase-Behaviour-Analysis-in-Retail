@@ -33,6 +33,8 @@ This project aims to derive strategic insights from customer purchase data in an
 | `CustomerID`   | Unique customer ID                          |
 | `Country`      | Country of purchase                         |
 
+⚠️ **Note:** *Full dataset not included due to GitHub file size limits. Sample CSVs are used for demonstration.*
+
 ---
 
 ## 🧰 Tools and Technologies
@@ -82,7 +84,11 @@ customer_purchase_analysis/
 │ └── process_log.log
 ├── Reports/
 │ ├── Customer_Purchase_Analysis.pbix
-│ └── Customer_Purchase_Analysis.pdf
+│ ├── Customer_Purchase_Analysis.pdf
+│ ├── BI_Executive_Summary.png
+│ ├── BI_Sales_Trend.png
+│ ├── BI_RFM_Segments.png
+│ └── BI_Market_Basket.png
 ├── requirements.txt
 └── README.md
 ```
@@ -98,6 +104,8 @@ customer_purchase_analysis/
 - Creates new columns like `TotalPrice`
 - Logs all steps and saves cleaned file
 
+📄 RFM: `outputs/data/clean_online_retail.csv
+
 ### 📌 Step 2: MySQL Pipeline
 - Insert & retrieve cleaned data into/from MySQL
 - Optional for production deployment and data integration
@@ -109,6 +117,8 @@ customer_purchase_analysis/
 - Hourly purchase patterns (peak times)
 - Country-wise revenue distribution
 - Plots saved to `outputs/figures/eda_fig/`
+
+📁 Outputs: `outputs/figures/eda_fig/`
 
 ### 📌 Step 4: Key Performance Indicator (KPI) Calculation
 - Total Revenue
@@ -129,12 +139,18 @@ customer_purchase_analysis/
   - `Inactive Spenders`
 - Plots saved to `outputs/figures/rfm_fig/`
 
+📁 Outputs: `outputs/figures/rfm_fig/`
+📄 RFM: `outputs/data/rfm_segments.csv`
+
+
 ### 📌 Step 6: Market Basket Analysis
 - Applies Apriori algorithm to find frequent itemsets
 - Generates association rules (support, confidence, lift)
 - Visualizes top rules (bubble chart, lift bar chart)
 - Great for cross-selling & bundling strategies
-- Rules saved to `outputs/data/association_rules.csv`
+
+📁 Outputs: `outputs/figures/mba_fig/`  
+📄 Rules: `outputs/data/association_rules.csv`
 
 ### 📊 Step 7: Power BI Dashboard Visualization
 - 4 Pages:
@@ -181,6 +197,8 @@ customer_purchase_analysis/
 
 ## 📊 Power BI Dashboard Overview
 
+4 Page Executive BI Dashboard (`Reports/`):
+
 ### Page 1: Executive Summary
 - Total Revenue, Orders, Customers
 - Revenue by Country
@@ -191,7 +209,7 @@ customer_purchase_analysis/
 - Top Products Sold
 - Peak Hour Purchases
 
-### Page 3: Customer Segments
+### Page 3: RFM Customer Segments
 - RFM Cluster Scatter Plots
 - Segment-specific KPIs
 
@@ -249,11 +267,11 @@ jupyter notebook notebooks/purchase_analysis.ipynb
 
 ### 📎 Deliverables
 - `purchase_analysis.ipynb`: Master notebook
-- `rfm_segments.csv`: Customer clusters
-- `association_rules.csv`: Market basket rules
+- `rfm_segments.csv`: RFM clustering results
+- `association_rules.csv`: Market basket rules results
 - Visual charts in `/outputs/figures`
 - MySQL-ready table insertions (optional)
-- Dashboard-ready data formats
+- Power BI dashboard images in Reports/
 
 ---
 
