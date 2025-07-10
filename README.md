@@ -104,7 +104,7 @@ customer_purchase_analysis/
 - Creates new columns like `TotalPrice`
 - Logs all steps and saves cleaned file
 
-📄 RFM: `outputs/data/clean_online_retail.csv
+📄 Cleaned dataset: `outputs/data/clean_online_retail.csv
 
 ### 📌 Step 2: MySQL Pipeline
 - Insert & retrieve cleaned data into/from MySQL
