@@ -202,19 +202,27 @@ customer_purchase_analysis/
 - Revenue by Country
 - Segment distribution (from RFM)
 
+<img width="1307" height="735" alt="BI_Executive_Summary" src="https://github.com/user-attachments/assets/55dac9f5-1590-4191-9968-5ae290079d64" />
+
 ### Page 2: Sales Trends
 - Monthly/Weekly Revenue Trend
 - Top Products Sold
 - Peak Hour Purchases
 
+<img width="1303" height="735" alt="BI_Sales_Trend" src="https://github.com/user-attachments/assets/d4c3ce85-17ff-478a-acc1-f429e55ad9f8" />
+
 ### Page 3: RFM Customer Segments
 - RFM Cluster Scatter Plots
 - Segment-specific KPIs
+
+<img width="1303" height="733" alt="BI_RFM_Segments" src="https://github.com/user-attachments/assets/3f0de587-21fc-426b-816c-e18db0fe510d" />
 
 ### Page 4: Market Basket Rules
 - Rules Table (A ➡ B)
 - Top Rules by Lift
 - Scatter: Confidence vs Support
+
+<img width="1308" height="733" alt="BI_Market_Basket" src="https://github.com/user-attachments/assets/53433d50-ebad-4201-ad4c-6c9131b29460" />
 
 ---
 
