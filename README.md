@@ -113,6 +113,7 @@ customer_purchase_analysis/
 - Insert & retrieve cleaned data into/from MySQL
 - Optional for production deployment and data integration
 - Handles deduplication and backup
+  
 📁 Outputs:
   <img width="396" height="60" alt="image" src="https://github.com/user-attachments/assets/76478948-564b-4969-bbd1-613deeeb9d0a" />
   <img width="1085" height="407" alt="image" src="https://github.com/user-attachments/assets/d8c69308-cf30-4bea-ac0c-3760e648b17b" />
