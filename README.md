@@ -115,6 +115,7 @@ customer_purchase_analysis/
 - Handles deduplication and backup
   
 📁 Outputs:
+
   <img width="396" height="60" alt="image" src="https://github.com/user-attachments/assets/76478948-564b-4969-bbd1-613deeeb9d0a" />
   <img width="1085" height="407" alt="image" src="https://github.com/user-attachments/assets/d8c69308-cf30-4bea-ac0c-3760e648b17b" />
 
@@ -178,6 +179,14 @@ customer_purchase_analysis/
   - Sales Analysis
   - Customer Segments
   - Association Rules
+📁  pages:
+<img width="1307" height="735" alt="Screenshot 2025-07-10 220437" src="https://github.com/user-attachments/assets/4e44bac5-5c95-439f-9e5a-a77a48bfda89" />
+
+<img width="1304" height="735" alt="Screenshot 2025-07-10 220546" src="https://github.com/user-attachments/assets/dc7b6652-06fd-4e2b-907e-0352c0f61b89" />
+
+<img width="1304" height="734" alt="Screenshot 2025-07-10 220633" src="https://github.com/user-attachments/assets/6109b991-3d0f-424b-acb0-81ca37a4ca84" />
+
+<img width="1309" height="734" alt="Screenshot 2025-07-10 220707" src="https://github.com/user-attachments/assets/9de6643c-400b-4d96-aaf5-365c1cb49eb5" />
 
 ---
 
