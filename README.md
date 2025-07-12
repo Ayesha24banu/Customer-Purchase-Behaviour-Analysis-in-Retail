@@ -105,13 +105,18 @@ customer_purchase_analysis/
 - Logs all steps and saves cleaned file
 
 📁 Outputs:
+<img width="1087" height="752" alt="image" src="https://github.com/user-attachments/assets/4553bd51-29fa-4c32-a4a8-464a06f702ee" />
+
 📄 Cleaned dataset: `outputs/data/clean_online_retail.csv`
 
 ### 📌 Step 2: MySQL Pipeline
 - Insert & retrieve cleaned data into/from MySQL
 - Optional for production deployment and data integration
 - Handles deduplication and backup
-  
+📁 Outputs:
+  <img width="396" height="60" alt="image" src="https://github.com/user-attachments/assets/76478948-564b-4969-bbd1-613deeeb9d0a" />
+  <img width="1085" height="407" alt="image" src="https://github.com/user-attachments/assets/d8c69308-cf30-4bea-ac0c-3760e648b17b" />
+
 ### 📌 Step 3: Exploratory Data Analysis (EDA)
 - Top 10 selling products
 - Monthly & daily revenue trends
@@ -119,6 +124,11 @@ customer_purchase_analysis/
 - Country-wise revenue distribution`
 
 📁 Outputs: `outputs/figures/eda_fig/`
+<img width="997" height="597" alt="image" src="https://github.com/user-attachments/assets/33775319-9b1c-4e4b-bfb7-0df541f7f378" />
+<img width="1126" height="467" alt="image" src="https://github.com/user-attachments/assets/dfb517cf-3d9d-4dfe-b0aa-48d658654cdb" />
+<img width="1122" height="472" alt="image" src="https://github.com/user-attachments/assets/4bdd27f7-33df-416e-886a-fa37a56f8cde" />
+<img width="1137" height="538" alt="image" src="https://github.com/user-attachments/assets/a86ae104-5c5e-4074-88fd-aa05f99be617" />
+<img width="1130" height="522" alt="image" src="https://github.com/user-attachments/assets/2ae110ce-68fd-43ab-9def-6e50f3f55ac4" />
 
 ### 📌 Step 4: Key Performance Indicator (KPI) Calculation
 - Total Revenue
@@ -126,6 +136,9 @@ customer_purchase_analysis/
 - Quantity Sold
 - Average Order Value
 - Core KPIs (Revenue, Quantity, AOV, etc.)
+  
+📁 Outputs
+<img width="280" height="175" alt="image" src="https://github.com/user-attachments/assets/306b5fec-b07a-4b8d-a581-955a65ff80b9" />
 
 ### 📌 Step 5: RFM Segmentation
 - Calculates Recency, Frequency, and Monetary values
@@ -139,6 +152,10 @@ customer_purchase_analysis/
   - `Inactive Spenders`
 
 📁 Outputs: `outputs/figures/rfm_fig/`
+<img width="828" height="777" alt="image" src="https://github.com/user-attachments/assets/80c09d43-39fa-4b0c-8cd9-95122db5bfad" />
+<img width="677" height="547" alt="image" src="https://github.com/user-attachments/assets/fdafb2bb-2ade-4554-aa64-43adf7eaf2dd" />
+<img width="1251" height="759" alt="image" src="https://github.com/user-attachments/assets/a76790ce-9e9d-44cd-b0cd-78fe7fc13fc5" />
+
 📄 RFM: `outputs/data/rfm_segments.csv`
 
 ### 📌 Step 6: Market Basket Analysis
@@ -147,7 +164,11 @@ customer_purchase_analysis/
 - Visualizes top rules (bubble chart, lift bar chart)
 - Great for cross-selling & bundling strategies
 
-📁 Outputs: `outputs/figures/mba_fig/`  
+📁 Outputs: `outputs/figures/mba_fig/` 
+<img width="961" height="557" alt="image" src="https://github.com/user-attachments/assets/875206c5-1a7a-4d53-be68-e9956c6252a3" />
+<img width="1115" height="678" alt="image" src="https://github.com/user-attachments/assets/843e57ed-7740-401a-9ea5-848011b5d9de" />
+<img width="1112" height="702" alt="image" src="https://github.com/user-attachments/assets/0cd2e432-a6ba-4062-8dfb-2a2dd9aa659e" />
+
 📄 Rules: `outputs/data/association_rules.csv`
 
 ### 📊 Step 7: Power BI Dashboard Visualization
