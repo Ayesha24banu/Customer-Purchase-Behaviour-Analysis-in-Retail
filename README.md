@@ -85,6 +85,7 @@ customer_purchase_analysis/
 ├── Reports/
 │ ├── Customer_Purchase_Analysis.pbix
 │ ├── Customer_Purchase_Analysis.pdf
+│ ├── Customer_Purchase_Analysis.pptx
 │ ├── BI_Executive_Summary.png
 │ ├── BI_Sales_Trend.png
 │ ├── BI_RFM_Segments.png
