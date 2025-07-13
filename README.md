@@ -276,9 +276,10 @@ jupyter notebook notebooks/purchase_analysis.ipynb
 ---
 
 ## output videos:
-https://drive.google.com/file/d/1NLckyX9VrAv5E3ddQYDTrqJXJIr0i5D8/view?usp=drive_link
+**Jupyter Notebook:** https://drive.google.com/file/d/1Jip6S2ppr5XhR7zQi5dREoGPfj3NtdXh/view?usp=drive_link
 
-https://drive.google.com/file/d/1Jip6S2ppr5XhR7zQi5dREoGPfj3NtdXh/view?usp=sharing
+
+**Power BI:** https://drive.google.com/file/d/1NLckyX9VrAv5E3ddQYDTrqJXJIr0i5D8/view?usp=drive_link
 
 ---
 
